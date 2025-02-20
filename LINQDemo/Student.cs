@@ -18,5 +18,10 @@ namespace LINQDemo
             StudyGroup = studyGroup;
         }
 
+        public override string? ToString()
+        {
+            return $"First Name: {FirstName} - Last Name: {LastName} => Class: {StudyGroup}";
+            ;
+        }
     }
 }
